@@ -60,7 +60,6 @@ namespace GirlyMerely.Web.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
-            var a = "test commit";
             return View();
         }
         [AllowAnonymous]
